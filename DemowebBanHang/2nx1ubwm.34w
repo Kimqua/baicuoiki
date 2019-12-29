@@ -1,0 +1,41 @@
+﻿body {
+      margin: 0 auto;
+    text-align:center;
+    background-color: white;
+}
+#header
+{
+    width:1000px;
+    height:200px;
+    background-color:blue;
+}
+   
+#menu
+{
+    width:1000px;
+    height:90px;
+    background-color:blue;
+
+}
+#left
+{
+    width:250px;
+    height:500px;
+    background-color:white;
+    float:left;
+}
+#content
+{
+    width:750px;
+    height:500px;
+    background-color:white;
+    float:left;
+}
+
+#footer
+{
+    width:1000px;
+    height:60px;
+    background-color:gray;
+    clear:both;
+}

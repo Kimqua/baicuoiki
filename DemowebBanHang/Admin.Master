@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="DemowebBanHang.Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+     <link href="Adm.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 42px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+       <div id="wrapper">
+             
+            <div id="header">
+            </div>
+
+            <div id="menu">
+                <table class="auto-style1">
+                    <tr>
+                        <td>
+                            <asp:HyperLink ID="HyperL1" runat="server" style="color: #FF3300">Trang chủ</asp:HyperLink>
+                        </td>
+                        <td>
+                            <asp:HyperLink ID="HyperL2" runat="server" style="color: #FF3300">Giới thiệu </asp:HyperLink>
+                        </td>
+                        <td>
+                            <asp:HyperLink ID="HyperL3" runat="server" style="color: #FF3300">Sản phẩm</asp:HyperLink>
+                        </td>
+                        <td>
+                            <asp:HyperLink ID="HyperL4" runat="server" style="color: #FF3300">Liên hệ</asp:HyperLink>
+                        </td>
+                    </tr>
+                </table>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <div id="left">
+               DANH MỤC SẢN PHẨM
+            </div>
+
+            <div id="content">
+            </div><%--ket thuc Trai--%>
+
+            <div id="right">
+            </div><%--ket thuc Phai--%>
+
+            
+        
+            <div id="footer">
+                Shop Hoàng Mai Quyên
+            </div><%--ket thuc Footer--%>
+
+        </div> <%-- ket thuc wrapper--%>
+    </div>
+    </form>
+</body>
+</html>

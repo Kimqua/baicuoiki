@@ -1,0 +1,52 @@
+﻿body {
+    margin: 0 auto;
+    text-align:center;
+    background-color: white;
+}
+#wrapper
+{
+    width:1000px;
+    margin:auto;
+    background-color:white;
+}
+#header
+{
+    width:1000px;
+    height:150px;
+    background-color:blue;
+}
+   
+#menu
+{
+    width:1000px;
+    height:50px;
+    background-color:blue;
+}
+#left
+{
+    width:250px;
+    height:500px;
+    background-color:white;
+    float:left;
+}
+#content
+{
+    width:500px;
+    height:500px;
+    background-color:white;
+    float:left;
+}
+#right
+{
+    width:250px;
+    height:500px;
+    background-color:white;
+    float:right;
+}
+#footer
+{
+    width:1000px;
+    height:60px;
+    background-color:gray;
+    clear:both;
+}

@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="DemowebBanHang.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+          <div id="wrapper">
+
+            <div id="header">
+            </div>
+
+          <div id="menu">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Người dùng</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+          </div>
+
+            <div id="left">  
+                <div id="menu-left">
+                    <ul>
+                        <li><a href="#">NƠI BÁN</a>
+                            <ul class="submenu">
+                                <li><a href="#"><asp:CheckBox ID="CheckBox5" runat="server"  Text="Quy Nhơn" style="text-align: left" /></a></li>
+                                <li><a href="#"><asp:CheckBox ID="CheckBox6" runat="server" Text="Tuy Hòa" style="text-align: left" /></a></li>
+                            </ul>  
+                        </li>              
+                        <li><a href="#">ĐƠN VỊ VẬN CHUYỂN</a>
+                            <ul class="submenu">
+                                <li><a href="#"><asp:CheckBox ID="CheckBox1" runat="server" Text="Giao hàng tiết kiệm" /></a></li>
+                                <li><a href="#"> <asp:CheckBox ID="CheckBox2" runat="server" Text="J&amp;T Express" /></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>  
+                          
+                     
+            
+
+            <div id="content">
+            </div><%--ket thuc Trai--%>
+
+            <div id="right">
+            </div><%--ket thuc Phai--%>
+
+            
+        
+            <div id="footer">
+              Hoàng Mai Quyên Bakery
+                Quy Nhơn-Bình Định
+            </div><%--ket thuc Footer--%>
+
+       </div>
+    </form>
+</body>
+</html>

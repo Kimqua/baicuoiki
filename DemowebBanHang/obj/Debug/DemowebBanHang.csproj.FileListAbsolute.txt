@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\DemowebBanHang\DemowebBanHang\bin\DemowebBanHang.dll.config
+c:\users\lenovo\documents\visual studio 2013\Projects\DemowebBanHang\DemowebBanHang\bin\DemowebBanHang.dll
+c:\users\lenovo\documents\visual studio 2013\Projects\DemowebBanHang\DemowebBanHang\bin\DemowebBanHang.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\DemowebBanHang\DemowebBanHang\obj\Debug\DemowebBanHang.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2013\Projects\DemowebBanHang\DemowebBanHang\obj\Debug\DemowebBanHang.dll
+c:\users\lenovo\documents\visual studio 2013\Projects\DemowebBanHang\DemowebBanHang\obj\Debug\DemowebBanHang.pdb
